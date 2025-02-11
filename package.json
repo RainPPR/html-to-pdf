@@ -1,0 +1,28 @@
+{
+  "name": "html-to-pdf",
+  "version": "1.0.0",
+  "description": "html-to-pdf",
+  "keywords": [
+    "html",
+    "pdf"
+  ],
+  "homepage": "https://github.com/raineblog/html-to-pdf#readme",
+  "bugs": {
+    "url": "https://github.com/raineblog/html-to-pdf/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raineblog/html-to-pdf.git"
+  },
+  "license": "MIT",
+  "author": "RainPPR",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^24.2.0"
+  }
+}
