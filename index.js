@@ -13,7 +13,7 @@ async function convertHtmlToPdf(htmlPath, pdfPath) {
   // console.log(htmlPath);
 
   await page.goto(htmlPath, {
-    waitUntil: 'networkidle0',
+    waitUntil: 'networkidle2',
   });
 
   await page.pdf({
