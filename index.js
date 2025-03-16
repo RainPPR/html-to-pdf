@@ -13,14 +13,14 @@ async function convertHtmlToPdf(htmlPath, pdfPath) {
   // console.log(htmlPath);
 
   await page.goto(htmlPath, {
-    waitUntil: 'networkidle2',
+    waitUntil: 'networkidle0',
   });
 
   await page.pdf({
     format: 'A4',
     margin: {
-      top: '25mm',
-      bottom: '25mm',
+      top: '25.5mm',
+      bottom: '25.5mm',
       left: '19mm',
       right: '19mm',
     },
